@@ -105,7 +105,7 @@ class YouTubeApp(QWidget):
         # Create the widgets
         self.note_label = QLabel("با باز بودن برنامه میتونید روی پورت ۴۵۰۰ یوتوب روی بدون فیلترشکن نگاه کنید")
 
-        self.tut_label = QLabel('<a href="https://www.example.com">برای آموزش کلید کنید</a>')
+        self.tut_label = QLabel('<a href="https://mohammadforoutan.github.io/gfw-py/">برای آموزش کلید کنید</a>')
         self.tut_label.linkActivated.connect(self.open_link)
 
         self.url_label = QLabel("YouTube Video URL:")
