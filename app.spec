@@ -6,7 +6,7 @@ a = Analysis(
     ['app.py'],  # Main script
     pathex=[],  # Additional paths, if needed
     binaries=[],  # External binaries (we'll add ffmpeg later)
-    datas=[('ffmpeg/ffmpeg.exe', 'ffmpeg')],  # Add ffmpeg to the bundle
+    datas=[('/usr/bin/ffmpeg', 'ffmpeg')],  # Add ffmpeg to the bundle
     hiddenimports=[],  # Any hidden imports can be added here
     hookspath=[],
     hooksconfig={},
